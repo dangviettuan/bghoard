@@ -28,7 +28,7 @@ export const games: Game[] = [
     image: '/assets/beans.png',
     description:
       'Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels.',
-    price: 35,
+    price: 15,
     reviews: randomReviews('monopoly')
   },
   {
@@ -37,7 +37,7 @@ export const games: Game[] = [
     image: '/assets/beans.png',
     description:
       'Exploding Kittens is passphrased as a “strategic card game about cats and destruction” which follows the gameplay which is to collect kittens while at the same time demoting the other players’ amount of kittens.',
-    price: 35,
+    price: 45,
     reviews: randomReviews('exploding-kittens')
   }
 ];
