@@ -18,8 +18,8 @@ describe('review game list', () => {
     });
   });
 
-  // it('should navigate to game review details', () => {
-  //   cy.contains('a', 'The Werewolves of Millers Hollow').click();
-  //   cy.url().should('contain', 'review/the-werewolves-of-millers-hollow');
-  // });
+  it('should navigate to game review details', () => {
+    cy.contains('a', 'The Werewolves of Millers Hollow').click();
+    cy.url().should('contain', 'review/the-werewolves-of-millers-hollow');
+  });
 });
