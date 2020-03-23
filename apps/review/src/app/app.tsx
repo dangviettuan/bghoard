@@ -20,6 +20,7 @@ export const Tile = styled.div`
   &:hover {
     border-color: #5159ea;
   }
+  height: 100%;
 `;
 
 export const ImageWrapper = styled.div`
@@ -39,6 +40,8 @@ export const Image = styled.img`
 
 export const TileTitle = styled.h2`
   text-align: center;
+  word-break: break-word;
+  width: 200px;
 `;
 
 export const TileLeftCorner = styled.div`
