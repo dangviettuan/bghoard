@@ -1,11 +1,8 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-
-import ReviewUtilFormatters from './review-util-formatters';
+import { render, cleanup } from '@testing-library/react';
 
 describe(' ReviewUtilFormatters', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<ReviewUtilFormatters />);
-    expect(baseElement).toBeTruthy();
-  });
+  afterEach(cleanup);
+
+  it('should render successfully', () => {});
 });

@@ -1,4 +1,3 @@
-
 import { Request } from 'express';
 import { games } from './game';
 
@@ -9,6 +8,7 @@ export const getReviews = (req: Request, res) => {
 };
 
 export const createReview = (req: Request, res) => {
+  console.log(req);
   const gameId = req.params.game;
   const game = games.find(g => g.id === gameId);
   game.reviews.push(req.body);

@@ -18,7 +18,8 @@ export const ReviewFeatureDetails = ({ gameId }) => {
     rating: 0
   });
 
-  function createReview() {
+  function createReview(event) {
+    event.preventDefault();
     fetch('/api/review/' + (game && game.id), {
       body: JSON.stringify(reviewForm),
       headers: {

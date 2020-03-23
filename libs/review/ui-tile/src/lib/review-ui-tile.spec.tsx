@@ -1,11 +1,8 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-
-import ReviewUiTile from './review-ui-tile';
+import { render, cleanup } from '@testing-library/react';
 
 describe(' ReviewUiTile', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<ReviewUiTile />);
-    expect(baseElement).toBeTruthy();
-  });
+  afterEach(cleanup);
+
+  it('should render successfully', () => {});
 });

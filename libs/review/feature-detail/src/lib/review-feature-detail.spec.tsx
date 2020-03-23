@@ -1,11 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
 
-import ReviewFeatureDetail from './review-feature-detail';
+import { ReviewFeatureDetails } from './review-feature-detail';
 
-describe(' ReviewFeatureDetail', () => {
-  it('should render successfully', () => {
-    const { baseElement } = render(<ReviewFeatureDetail />);
-    expect(baseElement).toBeTruthy();
-  });
+describe(' ReviewFeatureDetails', () => {
+  afterEach(cleanup);
+
+  it('should render successfully', () => {});
 });
