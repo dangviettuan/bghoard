@@ -1,0 +1,28 @@
+{
+  "npmScope": "bghoard",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "review": {
+      "tags": []
+    },
+    "review-e2e": {
+      "tags": [],
+      "implicitDependencies": ["review"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
