@@ -16,7 +16,7 @@ export const games: Game[] = [
   {
     id: 'the-werewolves-of-millers-hollow',
     name: 'The Werewolves of Millers Hollow',
-    image: '/assets/beans.png',
+    image: './assets/ma-soi.png',
     description:
       'The Werewolves of Millers Hollow is a card game created by the French authors Philippe des Pallières and Hervé Marly that can be played with 8 to 47 players. The game is based on the Russian game Mafia. It was nominated for the 2003 Spiel des Jahres award.',
     price: 35,
@@ -25,7 +25,7 @@ export const games: Game[] = [
   {
     id: 'monopoly',
     name: 'Monopoly',
-    image: '/assets/beans.png',
+    image: './assets/monopoly.jpeg',
     description:
       'Monopoly is a board game currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels.',
     price: 15,
@@ -34,7 +34,7 @@ export const games: Game[] = [
   {
     id: 'exploding-kittens',
     name: 'Exploding Kittens',
-    image: '/assets/beans.png',
+    image: './assets/meo-no.png',
     description:
       'Exploding Kittens is passphrased as a “strategic card game about cats and destruction” which follows the gameplay which is to collect kittens while at the same time demoting the other players’ amount of kittens.',
     price: 45,
