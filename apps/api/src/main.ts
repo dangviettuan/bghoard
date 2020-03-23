@@ -2,7 +2,9 @@ import * as express from 'express';
 import { getGames } from './app/game';
 import { getReviews, createReview } from './app/review';
 import { getCart, addItemToCart, updateItemInCart } from './app/store';
+
 const app = express();
+app.use(express.json());
 
 app.get('/api/game', getGames);
 
