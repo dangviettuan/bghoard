@@ -1,13 +1,18 @@
 import * as express from 'express';
-import { Message } from '@bghoard/api-interfaces';
-
+import { getGames } from './app/game'
+import { getReviews, createReview } from './app/review';
+import { getCart, addItemToCart, updateItemInCart } from './app/store';
 const app = express();
 
-const greeting: Message = { message: 'Welcome to api!' };
 
-app.get('/api', (req, res) => {
-  res.send(greeting);
-});
+app.get('/api/game', getGames);
+
+app.get('/api/reivew/:game', getReviews);
+app.post('/api/reivew/:game', createReview);
+
+app.get('/api/cart', getCart);
+app.post('/api/cart', addItemToCart);
+app.put('/api/cart', updateItemInCart);
 
 const port = process.env.port || 3333;
 const server = app.listen(port, () => {
