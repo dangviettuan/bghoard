@@ -36,6 +36,7 @@
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
+    "@nrwl/angular": "^9.1.2",
     "@nrwl/cypress": "9.1.2",
     "@nrwl/eslint-plugin-nx": "9.1.2",
     "@nrwl/express": "9.1.2",
