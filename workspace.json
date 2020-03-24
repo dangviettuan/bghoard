@@ -22,6 +22,11 @@
                 "input": "libs/shared/assets/src/lib",
                 "glob": "*.png",
                 "output": "assets"
+              },
+              {
+                "input": "libs/shared/assets/src/lib",
+                "glob": "*.jpeg",
+                "output": "assets"
               }
             ],
             "styles": [],
@@ -342,6 +347,11 @@
               {
                 "input": "libs/shared/assets/src/lib",
                 "glob": "*.png",
+                "output": "assets"
+              },
+              {
+                "input": "libs/shared/assets/src/lib",
+                "glob": "*.jpeg",
                 "output": "assets"
               }
             ],
