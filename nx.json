@@ -38,6 +38,13 @@
     },
     "review-feature-detail": {
       "tags": []
+    },
+    "store": {
+      "tags": []
+    },
+    "store-e2e": {
+      "tags": [],
+      "implicitDependencies": ["store"]
     }
   }
 }
