@@ -55,7 +55,7 @@
     "store-feature-cart": {
       "tags": []
     },
-    "store-ui-formatters": {
+    "shared-ui-formatters": {
       "tags": []
     },
     "store-data-access-games": {

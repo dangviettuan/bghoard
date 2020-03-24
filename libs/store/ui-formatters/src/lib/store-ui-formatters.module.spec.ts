@@ -1,5 +1,5 @@
 import { async, TestBed } from '@angular/core/testing';
-import { StoreUiFormattersModule } from './store-ui-formatters.module';
+import { StoreUiFormattersModule } from './shared-ui-formatters.module';
 
 describe('StoreUiFormattersModule', () => {
   beforeEach(async(() => {
