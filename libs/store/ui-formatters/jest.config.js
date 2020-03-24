@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'shared-ui-formatters',
+  name: 'store-ui-formatters',
   preset: '../../../jest.config.js',
   coverageDirectory: '../../../coverage/libs/store/ui-formatters',
   snapshotSerializers: [

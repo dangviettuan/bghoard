@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-formatters.module';
+export * from './lib/store-ui-formatters.module';

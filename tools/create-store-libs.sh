@@ -15,8 +15,8 @@ yarn nx g @nrwl/angular:component cart --project=store-feature-cart --export --s
 
 # UI Formatters
 yarn nx g @nrwl/angular:lib --directory=store ui-formatters --style=scss
-yarn nx g @nrwl/angular:pipe currency --project=shared-ui-formatters --export
-yarn nx g @nrwl/angular:pipe rating --project=shared-ui-formatters --export
+yarn nx g @nrwl/angular:pipe currency --project=store-ui-formatters --export
+yarn nx g @nrwl/angular:pipe rating --project=store-ui-formatters --export
 
 # Data Access Games
 yarn nx g @nrwl/angular:lib --directory=store data-access-games --style=scss
