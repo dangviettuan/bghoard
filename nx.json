@@ -27,7 +27,7 @@
     "review-ui-tile": {
       "tags": []
     },
-    "review-util-formatters": {
+    "shared-ui-formatters": {
       "tags": []
     },
     "review-data-access-games": {
@@ -65,6 +65,9 @@
       "tags": []
     },
     "shared-ui-tile": {
+      "tags": []
+    },
+    "shared-assets": {
       "tags": []
     }
   }

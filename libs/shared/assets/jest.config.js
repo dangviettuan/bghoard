@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'shared-ui-formatters',
+  name: 'shared-assets',
   preset: '../../../jest.config.js',
   transform: {
     '^.+\\.[tj]sx?$': 'ts-jest'
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
-  coverageDirectory: '../../../coverage/libs/review/util-formatters'
+  coverageDirectory: '../../../coverage/libs/shared/assets'
 };

@@ -1,1 +1,1 @@
-export * from './lib/shared-review-util-formatters';
+export * from './lib/shared-util-formatters';

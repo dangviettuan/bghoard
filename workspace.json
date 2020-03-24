@@ -221,9 +221,9 @@
         }
       }
     },
-    "review-util-formatters": {
-      "root": "libs/review/util-formatters",
-      "sourceRoot": "libs/review/util-formatters/src",
+    "shared-ui-formatters": {
+      "root": "libs/shared/util-formatters",
+      "sourceRoot": "libs/shared/util-formatters/src",
       "projectType": "library",
       "schematics": {},
       "architect": {
@@ -231,12 +231,12 @@
           "builder": "@nrwl/linter:lint",
           "options": {
             "linter": "eslint",
-            "config": "libs/review/util-formatters/.eslintrc",
+            "config": "libs/shared/util-formatters/.eslintrc",
             "tsConfig": [
-              "libs/review/util-formatters/tsconfig.lib.json",
-              "libs/review/util-formatters/tsconfig.spec.json"
+              "libs/shared/util-formatters/tsconfig.lib.json",
+              "libs/shared/util-formatters/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/review/util-formatters/**"]
+            "exclude": ["**/node_modules/**", "!libs/shared/util-formatters/**"]
           }
         },
         "test": {
@@ -673,6 +673,34 @@
           "options": {
             "jestConfig": "libs/shared/ui-tile/jest.config.js",
             "tsConfig": "libs/shared/ui-tile/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "shared-assets": {
+      "root": "libs/shared/assets",
+      "sourceRoot": "libs/shared/assets/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/shared/assets/.eslintrc",
+            "tsConfig": [
+              "libs/shared/assets/tsconfig.lib.json",
+              "libs/shared/assets/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/shared/assets/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/shared/assets/jest.config.js",
+            "tsConfig": "libs/shared/assets/tsconfig.spec.json",
             "passWithNoTests": true
           }
         }
