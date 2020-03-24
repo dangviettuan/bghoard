@@ -4,9 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'rating'
 })
 export class RatingPipe implements PipeTransform {
-
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform(rating: number, ...args: any[]): string {
+    return (rating === undefined ? '?' : rating.toFixed(1)) + '/5';
   }
-
 }
