@@ -12,7 +12,8 @@
   },
   "projects": {
     "review": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["shared-assets"]
     },
     "review-e2e": {
       "tags": [],
@@ -22,53 +23,51 @@
       "tags": []
     },
     "api-interfaces": {
-      "tags": []
-    },
-    "review-ui-tile": {
-      "tags": []
+      "tags": ["type:util"]
     },
     "shared-ui-formatters": {
-      "tags": []
+      "tags": ["type:util"]
     },
     "review-data-access-games": {
-      "tags": []
+      "tags": ["type:data-access"]
     },
     "review-feature-list": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "review-feature-detail": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "store": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["shared-assets"]
     },
     "store-e2e": {
       "tags": [],
       "implicitDependencies": ["store"]
     },
     "store-feature-list": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "store-feature-details": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "store-feature-cart": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "store-ui-formatters": {
-      "tags": []
+      "tags": ["type:feature"]
     },
     "store-data-access-games": {
-      "tags": []
+      "tags": ["type:data-access"]
     },
     "store-data-access-cart": {
-      "tags": []
+      "tags": ["type:data-access"]
     },
     "shared-ui-tile": {
-      "tags": []
+      "tags": ["type:ui"]
     },
     "shared-assets": {
-      "tags": []
+      "tags": ["type:ui"]
     }
   }
 }

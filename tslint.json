@@ -60,6 +60,10 @@
         "allow": [],
         "depConstraints": [
           {
+            "sourceTag": "type:ui",
+            "onlyDependOnLibsWithTags": ["type:util"]
+          },
+          {
             "sourceTag": "*",
             "onlyDependOnLibsWithTags": ["*"]
           }
