@@ -63,6 +63,9 @@
     },
     "store-data-access-cart": {
       "tags": []
+    },
+    "shared-ui-tile": {
+      "tags": []
     }
   }
 }
