@@ -526,8 +526,8 @@
       "e2eTestRunner": "cypress"
     },
     "@nrwl/angular:library": {
-      "unitTestRunner": "jest",
-      "style":"scss"
+      "style":"scss",
+      "unitTestRunner": "jest"
     }
   },
   "defaultProject": "review"
